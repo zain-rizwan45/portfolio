@@ -1,0 +1,321 @@
+body{
+    background-color: #1d1d1d;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-right: 43rem;
+    font-size: 42px;
+}
+.icon{
+    text-align: left;
+}
+.icon img{
+    width: 35px;
+}
+.nav3{
+    margin-right: 30rem;
+}
+.main{
+    margin: 50px;
+  }
+  
+  .nav-bar{
+    word-spacing: 40px;
+    font-size: 20px;
+    font-family: arial;
+  }
+  
+  .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-bar ul li{
+    display: inline-block;
+  }
+  
+.center{
+    background: #111111;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 37%;
+  margin-top: 4%;
+}
+.line{
+    height: 2px;
+    width: 400px;
+    position: absolute;
+    margin-left: 5%;
+    margin-bottom: 94%;
+    margin-top: -230px ;
+}
+.text10{
+    position: absolute;
+    margin-top: -200px ;
+    margin-left:5% ;
+    font-size: 20px;   
+}
+.text{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: -24%;
+    margin-left: 5%;
+    color: white;
+    letter-spacing: 5px;
+    width: 100%;
+}
+.text span{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+}
+.service{
+    margin-top: -27%;
+    color: white;
+    margin-left: -16%;
+}
+.service h3{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: yellow;
+}
+.service p{
+    font-size: 25px;
+    font-family: sans-serif;
+    width: 55%;
+}
+.service a{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: yellow;
+    letter-spacing: 1.5px;
+}
+.service img{
+    
+    width: 30px;
+    align-items: center;
+}
+.image{
+    margin-top:-28% ;
+    margin-left:40% ;
+}
+.image img{
+    width: 500px;
+}
+.links {
+    background-color: #131313 ;
+    min-height: 20vh;
+    display: flex;
+    gap: 2px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+    margin-left: 10%;
+    z-index: 1000;
+    position: relative;
+  }
+  .item img{
+   position: relative;
+   font-size: 3rem;
+   text-align: center;
+   height: 50px;
+   justify-content: center;
+
+  }
+  .item {
+    width: 200px;
+    height: 80px;
+    background-color: #222222;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-family: sans-serif;
+  }
+.section2{
+    background-color: #141414;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    margin-top: -5%;
+    padding-top: 10%;
+}
+.sub-sec , .sub-sec2{
+    display: flex;
+}
+.text1{
+    width: 25%;
+    margin-left: 10%;
+}
+.text1 h2{
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.text1 p{
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+}
+.sec1{
+    padding-right: 20%;
+
+}
+.sec1 h1{
+    color: yellow;
+    font-weight: 100;
+}
+.sec2 h1{
+    color: yellow;
+    font-weight: 100;
+}
+.sec1 h3{
+    font-weight: 100;
+    font-size: 16px;
+}
+.sec2 h3{
+    font-size: 16px;
+    font-weight: 100;
+}
+.text2{
+        margin-left: 15%;
+}
+.img img{
+    width: 130px;
+}
+.sub-sec3{
+    margin-left: 5%;
+}
+.sub-sec3 h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+.sub-sec3 p{
+    font-size: 14px;
+    font-weight: 100;
+}
+.text2{
+    width: 50%;
+}
+.main{
+    width: 50%;
+    display: flex;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.text2 hr{
+    width: 68%;
+    margin-left: 6%;
+}
+/*Neo Brutalism pricing card*/
+.card {
+    width: 290px;
+    height: 294px;
+    background: #181818;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .5vmin solid #05060f;
+    box-shadow: .4rem .4rem #000000c2;
+    overflow: hidden;
+  }
+  
+  /*Card content*/
+  .pricing-block-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  .pricing-plan {
+    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  
+  .price-value {
+    display: flex;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 2%;
+  }
+  
+  .pricing-note {
+    opacity: .8;
+  }
+  
+  /*Checklist*/
+  .check-list {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+  }
+  
+  .check-list-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+.section3{
+    background-color: #141414;
+    display: flex;
+    padding: 7%;
+}
+.card{
+    margin: 3%;
+    margin-left: 5%;
+}
+
+/* FOOTER */
+
+.footer-bottom {
+	padding: 10px;
+	background: #000000;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+	.footer-items {
+		width: 50%;
+	}
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+	.footer-items {
+		width: 100%;
+	}
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightblue;
+    }
+}
